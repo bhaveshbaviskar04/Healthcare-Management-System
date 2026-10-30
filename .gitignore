@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+package-lock.json.bak
+.pnpm-store/
+
+# Build artifacts
+dist/
+frontend/dist/
+build/
+target/
+backend/target/
+*.class
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE and Editor directories
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+nbproject/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
